@@ -16,4 +16,3 @@ docker build -f Dockerfiles/nginx/Dockerfile -t app_html_ng:0.1.0 .
 
 Version 0.1.0
  bgcolor=purple, OS=ubuntu16, Version: 0.1.0
- 
