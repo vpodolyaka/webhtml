@@ -1,4 +1,4 @@
-FROM ubuntu:18.04   
+FROM ubuntu:20.04   
 RUN  apt-get -y update && apt-get -y install nginx
 #COPY conf/etc/nginx/default /etc/nginx/sites-available/default
 #COPY ../../app/index.html /usr/share/nginx/html/index.html
