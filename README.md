@@ -1,4 +1,12 @@
 # webhtml - simple html application
+Version 0.1.0
+ bgcolor=purple, OS=ubuntu16, Version: 0.1.0
+Version 1.0.0
+ bgcolor=LimeGreen, OS=ubuntu18, Version: 1.0.0
+
+
+Settings
+
 git checkout -b <name_version> - create new repo
 git checkout -b v0.1.0 
 
@@ -12,7 +20,3 @@ git merge v0.1.0
 
 docker build -f Dockerfiles/nginx/Dockerfile -t app_html_ng:0.1.0 .
 
-
-
-Version 0.1.0
- bgcolor=purple, OS=ubuntu16, Version: 0.1.0
