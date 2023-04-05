@@ -6,4 +6,3 @@ ADD conf/etc/nginx/default /etc/nginx/sites-available/default
 ADD ../../app/index.html /usr/share/nginx/html/index.html
 EXPOSE 80
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
-
